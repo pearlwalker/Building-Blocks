@@ -32,8 +32,15 @@ namespace Building_Blocks
                 Console.WriteLine(teacher + " is the instructor!");
             }
             
-            //make a method that takes in 2 nums, adds them, then returns
-            //print out result
+            //"make a method that takes in 2 nums, adds them, then returns"
+            static int AddNumbers(int num1, int num2)
+            {
+                return num1 + num2;
+            }
+
+            //"print out result"
+            Console.Write("\n");
+            Console.WriteLine(number + " plus 188 equals "+AddNumbers(number, 188));
         }
         
     }
