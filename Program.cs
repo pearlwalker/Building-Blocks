@@ -4,10 +4,22 @@ namespace Building_Blocks
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
             //make some vars, print them out
+            string bird = "Heron";
+            int number = 27;
+            bool friend = true;
+            Console.WriteLine("I see a " + bird +"!\nNo, make that " + number + " " + bird +"s.");
+            Console.WriteLine("But is it a friend?");
+            if (friend == true)
+            {
+                Console.WriteLine("Indeed it is!");
+            } else
+            {
+                Console.WriteLine("No it is not :(");
+            }
+            
             //make a method that prints out instructor name
             //make a method that takes in 2 nums, adds them, then returns
             //print out result
