@@ -6,7 +6,7 @@ namespace Building_Blocks
     {
         static void Main()
         {
-            //make some vars, print them out
+            //"make some vars, print them out"
             string bird = "Heron";
             int number = 27;
             bool friend = true;
@@ -19,10 +19,22 @@ namespace Building_Blocks
             {
                 Console.WriteLine("No it is not :(");
             }
+
+            //"make a method that prints out instructor name"
+            //Call method
+            InstructorName();
+            //Define methods
+            static void InstructorName()
+            {
+                Console.Write("\n");
+                Console.WriteLine("Who is the instructor?");
+                string teacher = "Nick";
+                Console.WriteLine(teacher + " is the instructor!");
+            }
             
-            //make a method that prints out instructor name
             //make a method that takes in 2 nums, adds them, then returns
             //print out result
         }
+        
     }
 }
